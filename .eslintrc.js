@@ -4,7 +4,7 @@ module.exports = {
         "es6": true,
         "node": true
     },
-    extends: [
+    "extends": [
         // Базовый набор правил eslint
         'eslint:recommended',
         // Отключаем правила из базового набора
@@ -43,6 +43,7 @@ module.exports = {
         "unicorn/prevent-abbreviations": "off",
         "unicorn/catch-error-name": "off",
         "unicorn/explicit-length-check": "off",
+        "unicorn/no-nested-ternary": "warn",
         "no-null/no-null": "warn",
         // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
         "@typescript-eslint/tslint/config": [
